@@ -24,9 +24,7 @@
     <div class="result-container">
         {% for song in songs %}
         <div class="result">
-            <div class="title-track">
-                {% comment %} <h3 class="song-name">{{ song['title'] }}</h3> {% endcomment %}
-            </div>
+         
             <div class="video-box">
                 <iframe class="video" width="260" height="215" src="https://www.youtube.com/embed/{{ song['video_id'] }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
